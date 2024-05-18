@@ -1,0 +1,11 @@
+/* .choices{
+    display: flex;
+    align-items: center;
+} */
+
+.choice{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+}
+
