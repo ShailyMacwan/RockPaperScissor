@@ -69,6 +69,13 @@ img{
 
 }
 
+@media only screen and (max-width: 800px){
+
+    #msg{
+        font-size: 1rem;
+    };
+}
+
 @media only screen and (max-width: 600px) {
     h1{
         font-size: 2rem;
@@ -103,4 +110,27 @@ img{
         border-radius: 1rem;
     
     }
+  }
+  @media only screen and (max-width: 390px) {
+    
+    h1{
+        font-size: 1.5rem;
+    }
+    #msg{
+        font-size: 1rem;
+        padding: 1rem;    
+    };
+    
+  }
+
+  @media only screen and (max-width: 337px) {
+    
+    h1{
+        font-size: 1rem;
+    }
+    #msg{
+        font-size: 0.5rem;
+        padding: 1rem;    
+    };
+    
   }
