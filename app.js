@@ -18,7 +18,7 @@ const genCompChoice =() =>{
 const drawGame = () => {
     console.log("It is a Draw!!!");
     msg.innerText = "It is a Draw. Try Again";
-
+    msg.style.backgroundColor = "rgb(31, 10, 51)";
 };
 
 const showWinner = (userWin, userChoice, compChoice) => {
